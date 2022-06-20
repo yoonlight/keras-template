@@ -11,5 +11,5 @@ pip install -r requirements.txt
 - start
 
 ```shell
-python 
+python
 ```
