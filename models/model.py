@@ -2,7 +2,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 from keras.optimizer_v2.adam import Adam
 
-from hparams import HP_LEARNING_RATE
+from config.hparams import HP_LEARNING_RATE
 
 
 def load_model(hparams):

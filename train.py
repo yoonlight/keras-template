@@ -1,9 +1,9 @@
 import tensorflow as tf
 from tensorboard.plugins.hparams import api as hp
 
-from model import load_model
-from dataset import load
-from hparams import METRIC_ACCURACY
+from models.model import load_model
+from data.mnist import load
+from config.hparams import METRIC_ACCURACY
 
 X_train, Y_train, X_test, Y_test = load()
 

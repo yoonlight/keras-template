@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorboard.plugins.hparams import api as hp
 
 from train import run
-from hparams import HP_LEARNING_RATE, HP_LOG_DIR, METRIC_ACCURACY, HP_EPOCHS
+from config.hparams import HP_LEARNING_RATE, HP_LOG_DIR, METRIC_ACCURACY, HP_EPOCHS
 
 
 with tf.summary.create_file_writer(HP_LOG_DIR).as_default():
