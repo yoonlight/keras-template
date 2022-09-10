@@ -4,7 +4,6 @@ from tensorboard.plugins.hparams import api as hp
 from train import run
 from config.hparams import HP_LEARNING_RATE, HP_LOG_DIR, METRIC_ACCURACY, HP_EPOCHS
 
-
 with tf.summary.create_file_writer(HP_LOG_DIR).as_default():
     hp.hparams_config(
         hparams=[HP_LEARNING_RATE, HP_EPOCHS],

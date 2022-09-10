@@ -161,3 +161,6 @@ cython_debug/
 
 # tenorboard
 logs/
+
+# wandb
+wandb
